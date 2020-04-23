@@ -1,0 +1,37 @@
+{
+  "name": "multi-tenant-app",
+  "version": "1.0.0",
+  "description": "Sample project to understand the multi tenant",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src --exec babel-node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamilzh/multi-tenant-app.git"
+  },
+  "keywords": [
+    "Muti",
+    "Tenant",
+    "Sample"
+  ],
+  "author": "tamilselvan.p",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamilzh/multi-tenant-app/issues"
+  },
+  "homepage": "https://github.com/tamilzh/multi-tenant-app#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "body-parser": "^1.19.0",
+    "continuation-local-storage": "^3.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.0",
+    "pg": "^8.0.2"
+  }
+}
